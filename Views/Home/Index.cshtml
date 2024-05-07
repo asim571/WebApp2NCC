@@ -1,0 +1,9 @@
+﻿@model List<WebApp2ByAsim.Models.ProductViewModel>;
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Product Details</h2>
+@foreach (var product in Model)
+{
+    <p>@product.Id. @product.Name</p>
+}
