@@ -14,6 +14,9 @@ namespace WebApp2ByAsim.Controllers
         {
             return View(_productService.GetAll());
         }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
-
 }
